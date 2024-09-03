@@ -11,9 +11,9 @@ users = {"testuser": "password123"}
 
 # Dummy data for the user table
 user_data = [
-    {"username": "john_doe", "name": "John Doe", "age": 30, "salary": 50000, "department": "IT",
+    {"username": "john_test", "name": "John Doe", "age": 30, "salary": 50000, "department": "IT",
      "marital_status": "Single", "gender": "Male"},
-    {"username": "jane_smith", "name": "Jane Smith", "age": 25, "salary": 60000, "department": "HR",
+    {"username": "jane_Test", "name": "Jane Smith", "age": 25, "salary": 60000, "department": "HR",
      "marital_status": "Married", "gender": "Female"},
     {"username": "alice_johnson", "name": "Alice Johnson", "age": 28, "salary": 55000, "department": "Marketing",
      "marital_status": "Single", "gender": "Female"},
