@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%; /* Ensure the body and HTML cover full height */
+    margin: 0;
+    padding: 0;
+}
+
+    .login-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        text-align: center;
+    }
+
+    .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .logout-button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 0;
+        background-color: #f44336;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .logout-button:hover {
+        background-color: #d32f2f;
+    }
